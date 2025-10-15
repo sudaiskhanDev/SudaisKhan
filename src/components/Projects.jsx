@@ -6,7 +6,7 @@ function Projects() {
    
   return (
       <>
-          <div className="main-project text-center w-full h-[80vh] bg-gray-800 mt-5 p-2">
+          <div className="main-project text-center w-full h-[80vh] bg-gray-400 mt-5 p-2">
               <FlipLink>Projects</FlipLink>
       </div>
       <motion.hr
