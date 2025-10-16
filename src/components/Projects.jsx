@@ -11,14 +11,10 @@ function Projects() {
 
         <div className='projects mt-10 flex flex-wrap justify-center gap-5'>
           {/* Project Card */}
-          <div className="project-card w-full sm:w-[45%] md:w-[30%] lg:w-[25%] h-auto bg-gray-700 rounded-2xl overflow-hidden shadow-lg">
-            <img src={projectBG} alt="project1" className='w-full h-auto object-cover'/>
+          <div className="project-card w-full sm:w-[45%] md:w-[30%] lg:w-[25%] h-auto     ">
+            <a href="https://generative-ai-cyan.vercel.app/"><img src={projectBG} alt="project1" className='w-full h-auto object-cover'/></a>
           </div>
 
-          {/* You can duplicate this block for more projects */}
-          {/* <div className="project-card w-full sm:w-[45%] md:w-[30%] lg:w-[25%] h-auto bg-gray-700 rounded-2xl overflow-hidden shadow-lg">
-            <img src={project2} alt="project2" className='w-full h-auto object-cover'/>
-          </div> */}
         </div>
       </div>
 
