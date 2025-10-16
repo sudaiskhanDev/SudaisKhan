@@ -1,6 +1,6 @@
 import React from 'react'
 import { motion } from "framer-motion";
-import project1 from "../assets/project1.png"
+import projectBG from "../assets/projectBG.png"
 import FlipLink from "./ui/text-effect-flipper";
 
 function Projects() {
@@ -12,7 +12,7 @@ function Projects() {
         <div className='projects mt-10 flex flex-wrap justify-center gap-5'>
           {/* Project Card */}
           <div className="project-card w-full sm:w-[45%] md:w-[30%] lg:w-[25%] h-auto bg-gray-700 rounded-2xl overflow-hidden shadow-lg">
-            <img src={project1} alt="project1" className='w-full h-auto object-cover'/>
+            <img src={projectBG} alt="project1" className='w-full h-auto object-cover'/>
           </div>
 
           {/* You can duplicate this block for more projects */}
